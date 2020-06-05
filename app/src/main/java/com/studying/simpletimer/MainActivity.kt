@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private suspend fun count(secNum: Int) {
         changeStatus(false)
         var i = secNum
